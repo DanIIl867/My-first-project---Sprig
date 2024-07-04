@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-first-project-sprig/static/css/main.7acaea2f.css",
-    "main.js": "/my-first-project-sprig/static/js/main.35ee90d4.js",
+    "main.js": "/my-first-project-sprig/static/js/main.4a1ce392.js",
     "index.html": "/my-first-project-sprig/index.html",
     "main.7acaea2f.css.map": "/my-first-project-sprig/static/css/main.7acaea2f.css.map",
-    "main.35ee90d4.js.map": "/my-first-project-sprig/static/js/main.35ee90d4.js.map"
+    "main.4a1ce392.js.map": "/my-first-project-sprig/static/js/main.4a1ce392.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.35ee90d4.js"
+    "static/js/main.4a1ce392.js"
   ]
 }
