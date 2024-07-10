@@ -13,9 +13,33 @@ export const Header = () => {
                 <div className={s.nav}>
                     <ul>
                         <li><a href="/">Why Sprig?</a></li>
-                        <li><a href="/">Product </a><img src={arrow} alt="" /></li>
-                        <li><a href="/">Customers </a><img src={arrow} alt="" /></li>
-                        <li><a href="/">Resources </a><img src={arrow} alt="" /></li>
+                        <li><a href="/">Product </a><img src={arrow} alt="" />
+                            <ul>
+                                <li><a href="/">Product</a></li>
+                                <li><a href="/">Product</a></li>
+                                <li><a href="/">Product</a></li>
+                                <li><a href="/">Product</a></li>
+                                <li><a href="/">Product</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">Customers </a><img src={arrow} alt="" />
+                            <ul>
+                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Customers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">Resources </a><img src={arrow} alt="" />
+                            <ul>
+                                <li><a href="/">Resources</a></li>
+                                <li><a href="/">Resources</a></li>
+                                <li><a href="/">Resources</a></li>
+                                <li><a href="/">Resources</a></li>
+                                <li><a href="/">Resources</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/">Plans</a></li>
                     </ul>
                 </div>
