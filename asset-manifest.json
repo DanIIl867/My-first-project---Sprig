@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-first-project-sprig/static/css/main.ee684399.css",
-    "main.js": "/my-first-project-sprig/static/js/main.44d3e72c.js",
+    "main.css": "/my-first-project-sprig/static/css/main.0c7cbcfd.css",
+    "main.js": "/my-first-project-sprig/static/js/main.35240ed9.js",
     "index.html": "/my-first-project-sprig/index.html",
     "static/media/Vector.svg": "/my-first-project-sprig/static/media/Vector.48832890e029d82c96bfe9fb01018cec.svg",
-    "main.ee684399.css.map": "/my-first-project-sprig/static/css/main.ee684399.css.map",
-    "main.44d3e72c.js.map": "/my-first-project-sprig/static/js/main.44d3e72c.js.map"
+    "main.0c7cbcfd.css.map": "/my-first-project-sprig/static/css/main.0c7cbcfd.css.map",
+    "main.35240ed9.js.map": "/my-first-project-sprig/static/js/main.35240ed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee684399.css",
-    "static/js/main.44d3e72c.js"
+    "static/css/main.0c7cbcfd.css",
+    "static/js/main.35240ed9.js"
   ]
 }
