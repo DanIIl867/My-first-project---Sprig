@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    padding-top: 14px;
+    display: flex;
+    justify-content: end;
+
+    .content{
+        display: flex;
+
+        .textContent{
+
+            .titleText{
+                width: 448px;
+
+                h1{
+                    font-family: Roboto;
+                    font-size: 60px;
+                    font-weight: 400;
+                    line-height: 64px;
+                    letter-spacing: 0.6000000238418579px;
+                }
+            }
+
+            .subText{
+                width: 435px;
+
+                p{
+                    font-family: Roboto;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 32px;
+                }
+            }
+
+            .buttons{
+                display: flex;
+                gap: 3%;
+
+                .btn1{
+                    border-radius: 4px;
+                    border: 1px solid #F9C600;
+                    background-color: #F9C600;
+                    padding: 15px 29px;
+                }
+
+                .btn2{
+                    border-radius: 4px;
+                    border: 1px solid #0B2330;
+                    padding: 15px 29px;
+                }
+            }
+        }
+
+        .heroImage{
+            z-index: 9;
+        }
+
+    }
+
+    .backgroundImage{
+
+    }
+}

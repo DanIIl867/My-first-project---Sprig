@@ -1,23 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    list-style: none;
-
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-}
-
 .container{
         width: 100%;
      padding-top: 16px;
