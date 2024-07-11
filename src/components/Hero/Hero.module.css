@@ -5,9 +5,15 @@
     justify-content: end;
 
     .content{
+        width: 850px;
         display: flex;
+        gap: 33%;
+        padding-top: 10%;
 
         .textContent{
+            display: flex;
+            flex-direction: column;
+            gap: 4%;
 
             .titleText{
                 width: 448px;
@@ -41,12 +47,30 @@
                     border: 1px solid #F9C600;
                     background-color: #F9C600;
                     padding: 15px 29px;
+                    transition: all 0.5s ease;
+
+                    &:hover{
+                        border-radius: 4px;
+                        border: 1px solid #0B2330;
+                        background-color: #ffff;
+                        padding: 15px 29px;
+                        transition: all 0.9s ease;
+                    }
                 }
 
                 .btn2{
                     border-radius: 4px;
                     border: 1px solid #0B2330;
                     padding: 15px 29px;
+                    transition: all 0.5s ease;
+
+                    &:hover{
+                        border-radius: 4px;
+                        border: 1px solid #F9C600;
+                        background-color: #F9C600;
+                        padding: 15px 29px;
+                        transition: all 0.5s ease;
+                    }
                 }
             }
         }
@@ -58,6 +82,8 @@
     }
 
     .backgroundImage{
-
+        img{
+            width: 700px;
+        }
     }
 }

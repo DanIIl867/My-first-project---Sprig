@@ -13,31 +13,31 @@ export const Header = () => {
                 <div className={s.nav}>
                     <ul>
                         <li><a href="/">Why Sprig?</a></li>
-                        <li><a href="/">Product </a><img src={arrow} alt="" />
+                        <li><button>Product</button><img src={arrow} alt="" />
                             <ul>
-                                <li><a href="/">Product</a></li>
-                                <li><a href="/">Product</a></li>
-                                <li><a href="/">Product</a></li>
-                                <li><a href="/">Product</a></li>
-                                <li><a href="/">Product</a></li>
+                                <li><a href="/">Product1</a></li>
+                                <li><a href="/">Product2</a></li>
+                                <li><a href="/">Product3</a></li>
+                                <li><a href="/">Product4</a></li>
+                                <li><a href="/">Product5</a></li>
                             </ul>
                         </li>
-                        <li><a href="/">Customers </a><img src={arrow} alt="" />
+                        <li><button>Customers</button><img src={arrow} alt="" />
                             <ul>
-                                <li><a href="/">Customers</a></li>
-                                <li><a href="/">Customers</a></li>
-                                <li><a href="/">Customers</a></li>
-                                <li><a href="/">Customers</a></li>
-                                <li><a href="/">Customers</a></li>
+                                <li><a href="/">Customers1</a></li>
+                                <li><a href="/">Customers2</a></li>
+                                <li><a href="/">Customers3</a></li>
+                                <li><a href="/">Customers4</a></li>
+                                <li><a href="/">Customers5</a></li>
                             </ul>
                         </li>
-                        <li><a href="/">Resources </a><img src={arrow} alt="" />
+                        <li><button>Resources</button><img src={arrow} alt="" />
                             <ul>
-                                <li><a href="/">Resources</a></li>
-                                <li><a href="/">Resources</a></li>
-                                <li><a href="/">Resources</a></li>
-                                <li><a href="/">Resources</a></li>
-                                <li><a href="/">Resources</a></li>
+                                <li><a href="/">Resources1</a></li>
+                                <li><a href="/">Resources2</a></li>
+                                <li><a href="/">Resources3</a></li>
+                                <li><a href="/">Resources4</a></li>
+                                <li><a href="/">Resources5</a></li>
                             </ul>
                         </li>
                         <li><a href="/">Plans</a></li>
