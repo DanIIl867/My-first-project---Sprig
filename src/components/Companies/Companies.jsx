@@ -23,29 +23,29 @@ export const Companies =() => {
             </div>
             <div className={s.contentBlock}>
                 <div className={s.content1}>
-                    <img src={img1} alt="" />
-                    <img src={img15} alt="" />
-                    <img src={img14} alt="" />
+                    <a href="https://squareup.com/gb/en" target="blank"><img src={img1} alt="" /></a>
+                    <a href="https://shift.ua" target="blank"><img src={img15} alt="" /></a>
+                    <a href="https://www.data.ai/ru/" target="blank"><img src={img14} alt="" /></a>
                 </div>
                 <div className={s.content2}>
-                    <img src={img13} alt="" />
-                    <img src={img12} alt="" />
-                    <img src={img11} alt="" />
+                    <a href="https://www.codecademy.com" target="blank"><img src={img13} alt="" /></a>
+                    <a href="https://it-ease.com" target="blank"><img src={img12} alt="" /></a>
+                    <a href="https://www.beyondpricing.com" target="blank"><img src={img11} alt="" /></a>
                 </div>
                 <div className={s.content3}>
-                    <img src={img10} alt="" />
-                    <img src={img9} alt="" />
-                    <img src={img8} alt="" />
+                    <a href="https://www.dropbox.com/uk_UA/" target="blank"><img src={img10} alt="" /></a>
+                    <a href="https://ironcladapp.com" target="blank"><img src={img9} alt="" /></a>
+                    <a href="https://www.proguides.com" target="blank"><img src={img8} alt="" /></a>
                 </div>
                 <div className={s.content4}>
-                    <img src={img7} alt="" />
-                    <img src={img6} alt="" />
-                    <img src={img5} alt="" />
+                    <a href="https://www.loom.com" target="blank"><img src={img7} alt="" /></a>
+                    <a href="https://www.opendoor.com" target="blank"><img src={img6} alt="" /></a>
+                    <a href="https://invoice.2go.com" target="blank"><img src={img5} alt="" /></a>
                 </div>
                 <div className={s.content5}>
-                    <img src={img4} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img2} alt="" />
+                    <a href="https://www.adobe.com/ua/" target="blank"><img src={img4} alt="" /></a>
+                    <a href="https://www.surfline.com" target="blank"><img src={img3} alt="" /></a>
+                    <a href="https://www.chippercash.com" target="blank"><img src={img2} alt="" /></a>
                 </div>
             </div>
         </div>
