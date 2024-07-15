@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 192px;
+
+    .content{
+        width: 1376px;
+        height: 494px;
+        background-color: #51CEBC;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 2%;
+
+        .textContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 33px;
+
+            .heading{
+                width: 557px;
+
+                h2{
+                    font-family: Roboto;
+                    font-size: 34px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    letter-spacing: 0.3400000035762787px;      
+                    color: #0B2330;                 
+                }
+            }
+
+            .text{
+                width: 533px;
+
+                p{
+                    font-family: Roboto;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 32px;         
+                }
+            }
+        }
+    }
+}
