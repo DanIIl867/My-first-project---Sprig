@@ -19,8 +19,6 @@
                 width: 448px;
 
                 h1{
-                    color: #0B2330;
-                    font-family: Roboto;
                     font-size: 60px;
                     font-weight: 400;
                     line-height: 64px;
@@ -32,7 +30,6 @@
                 width: 435px;
 
                 p{
-                    font-family: Roboto;
                     font-size: 22px;
                     font-weight: 400;
                     line-height: 32px;
