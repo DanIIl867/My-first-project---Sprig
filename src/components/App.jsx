@@ -4,6 +4,7 @@ import { Companies } from "./Companies/Companies"
 import { Rectangle } from "./Rectangle/Rectangle"
 import { ContentBlock } from "./ContentBlock/ContentBlock"
 import { ContentBlockTwo } from "./ContentBlockTwo/ContentBlockTwo"
+import { Solutions } from "./Solutions/Solutions"
 
 
 export const App = () => {
@@ -15,6 +16,7 @@ export const App = () => {
             <Rectangle/>
             <ContentBlock/>
             <ContentBlockTwo/>
+            <Solutions/>
         </>
     )
 }
