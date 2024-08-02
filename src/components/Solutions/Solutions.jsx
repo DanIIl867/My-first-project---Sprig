@@ -103,6 +103,11 @@ export const Solutions = () => {
                         <div className={s.button}>
                             <a className={s.btn} href="/">Learn More</a>
                         </div>
+                        <div className={s.filters}>
+                            <button>Contextual Microsurveys</button>
+                            <button>Video Questions</button>
+                            <button>Concept Testing</button>
+                        </div>
                     </div>
 
                     <div className={s.image}>
