@@ -6,6 +6,7 @@ import { ContentBlock } from "./ContentBlock/ContentBlock"
 import { ContentBlockTwo } from "./ContentBlockTwo/ContentBlockTwo"
 import { Solutions } from "./Solutions/Solutions"
 import { Features } from "./Features/Features"
+import { Integrations } from "./Integrations_/Integrations"
 
 
 export const App = () => {
@@ -19,6 +20,7 @@ export const App = () => {
             <ContentBlockTwo/>
             <Solutions/>
             <Features/>
+            <Integrations/>
         </>
     )
 }
