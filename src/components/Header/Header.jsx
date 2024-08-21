@@ -1,7 +1,5 @@
-import s from"./Header.module.css";
+import s from "./Header.module.css";
 import LogoType from '../../img/frame.png';
-import arrow from '../../img/Vector.svg';
-
 
 export const Header = () => {
     return (
@@ -13,7 +11,11 @@ export const Header = () => {
                 <div className={s.nav}>
                     <ul>
                         <li><a href="/">Why Sprig?</a></li>
-                        <li><button>Product</button><img src={arrow} alt="" />
+                        <li>
+                            <button>
+                                Product
+                                <span className={s.arrow}></span> {/* Стрелочка */}
+                            </button>
                             <ul>
                                 <li><a href="/">Product1</a></li>
                                 <li><a href="/">Product2</a></li>
@@ -22,7 +24,11 @@ export const Header = () => {
                                 <li><a href="/">Product5</a></li>
                             </ul>
                         </li>
-                        <li><button>Customers</button><img src={arrow} alt="" />
+                        <li>
+                            <button>
+                                Customers
+                                <span className={s.arrow}></span> {/* Стрелочка */}
+                            </button>
                             <ul>
                                 <li><a href="/">Customers1</a></li>
                                 <li><a href="/">Customers2</a></li>
@@ -31,7 +37,11 @@ export const Header = () => {
                                 <li><a href="/">Customers5</a></li>
                             </ul>
                         </li>
-                        <li><button>Resources</button><img src={arrow} alt="" />
+                        <li>
+                            <button>
+                                Resources
+                                <span className={s.arrow}></span> {/* Стрелочка */}
+                            </button>
                             <ul>
                                 <li><a href="/">Resources1</a></li>
                                 <li><a href="/">Resources2</a></li>

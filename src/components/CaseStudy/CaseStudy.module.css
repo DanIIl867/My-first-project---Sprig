@@ -1,7 +1,10 @@
 .section{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
 
     .container{
-
+        display: flex;
 
         .caseOne{
             width: 562px;
@@ -58,6 +61,75 @@
                         &:hover{
                             background-color: #F9C600;
                             transition: all 0.5s ease;
+                        }
+                    }
+                }
+            }
+        }
+
+        .caseTwo{
+            background-color: #F9C600;
+            width: 794px;
+            height: 584px;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            justify-content: center;
+
+            .content{
+
+                .backgroundImage{
+                    position: absolute;
+
+                    img{
+                        position: relative;
+                        user-select: none;
+                    }
+                }
+
+                .profileContent{
+                    margin: 79px 116px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 75px;
+
+                    .text{
+                        width: 557px;
+    
+                        h2{
+                            font-size: 34px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.3400000035762787px;
+                        }
+                    }
+    
+                    .profile{
+                        display: flex;
+                        align-items: center;
+                        gap: 4%;
+
+                        .avatar{
+                            img{
+                                user-select: none;
+                            }
+                        }
+
+                        .profileName{
+                            h5{
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                color: #0B2330;
+                            }
+                            h4{
+                                font-family: Roboto;
+                                font-size: 17px;
+                                font-weight: 400;
+                                line-height: 28px;
+                                text-align: left;
+                                color: #2F3F48;
+                            }
                         }
                     }
                 }

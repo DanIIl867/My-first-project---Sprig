@@ -1,84 +1,104 @@
-.container{
+.container {
     width: 100%;
     padding-top: 16px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
-    .logo{
-        
-        a{
-            img{
-                transition: all 0.5s ease;
-            }
+    .nav {
+        width: 650px;
 
-            img:hover{
-                background-color: #b4c3ca;
-                transition: all 0.5s ease;
-                border-radius: 7px;
+        ul {
+            display: flex;
+            gap: 5%;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        
+            li {
+                position: relative;
+        
+                button {
+                    position: relative;
+                    padding-right: 20px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    
+                    .arrow {
+                        position: absolute;
+                        right: 5px;
+                        top: 40%;
+                        width: 4px; 
+                        height: 4px; 
+                        border: solid #333;
+                        border-width: 0 1px 1px 0;
+                        display: inline-block;
+                        padding: 1px; 
+                        transform: rotate(45deg); 
+                        transition: transform 0.4s ease;
+                        transform-origin: center;
+                        margin-top: -2px;
+                    }
+                }
+        
+                &:hover {
+                    .arrow {
+                        transform: rotate(225deg); 
+                    }
+                }
+        
+                ul {
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    padding: 7px 10px;
+                    flex-direction: column;
+                    text-align: left;
+                    gap: 10px;
+                    background: #F9C600;
+                    border: 1px solid #d1a800;
+                    border-radius: 10px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transform: translateY(20px);
+                    z-index: 10;
+                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+                    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s ease;
+                }
+        
+                &:hover > ul {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(0);
+                }
+            }
+        
+            li ul {
+                li {
+                    padding: 10px 15px;
+                    background-color: white;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                    
+                    &:hover {
+                        background-color: #f0e07b;
+                    }
+                }
             }
         }
     }
 
-    .nav{
-        width: 650px;
-
-        ul{
-            display: flex;
-            gap: 5%;
-            
-
-            li{
-                width: 110px;
-                position: relative  ;
-                pointer-events:fill;
-
-                img{
-                    padding:0 0 2.5% 6%;
-                }
-
-                ul{
-                    position: absolute;
-                    margin-top: 10px;
-                    padding: 10px 0 10px 0;
-                    flex-direction: column;
-                    text-align: center;
-                    gap: 10px;
-                    background-color: #eaeff1;
-                    border: 1px solid #0B2330;
-                    border-radius: 7px;
-                    opacity: 0;
-                    display: none;
-                    z-index: 10;
-                    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
-                    -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
-                    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
-                    
-                    
-                    
-                }
-
-                
-            }
-
-            li:hover ul{
-                display: flex;
-                opacity: 1;
-                transition: all 0.9s ease;
-            }
-        }
-     }
-
-     .info{
+    .info {
         width: 430px;
 
-        ul{
+        ul {
             display: flex;
             justify-content: space-around;
 
-            li{
-               
-                .button3{
+            li {
+                .button3 {
                     color: white;
                     border: 1px solid #0B2330;
                     background-color: #0B2330;
@@ -87,17 +107,15 @@
                     transition: all 0.5s ease;
                 }
 
-                .button3:hover{
+                .button3:hover {
                     color: black;
                     border: 1px solid #0B2330;
                     background-color: #ffff;
                     border-radius: 4px;
                     padding: 14px 39px;
                     transition: all 0.5s ease;
-                    
                 }
             }
         }
-     }
+    }
 }
-

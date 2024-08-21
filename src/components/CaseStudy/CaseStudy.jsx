@@ -25,24 +25,27 @@ export const CaseStudy = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className={s.caseTwo}>
                     <div className={s.content}>
                         <div className={s.backgroundImage}>
                             <img src={backImg} alt="" />
                         </div>
-                        <div className={s.text}>
-                            <h2>Sprig helps us collect insights easier, faster,
-                                and more accurately than any other tool on the market,
-                                which allows us to build a better product for our users and ultimately grow our revenue.
-                            </h2>
-                        </div>
-                        <div className={s.profile}>
-                            <div className={s.avatar}>
-                                <img src={ava} alt="" />
+                        <div className={s.profileContent}>
+                            <div className={s.text}>
+                                <h2>Sprig helps us collect insights easier, faster,
+                                    and more accurately than any other tool on the market,
+                                    which allows us to build a better product for our users and ultimately grow our revenue.
+                                </h2>
                             </div>
-                            <div className={s.profileName}>
-                                <h5>Daniel Layfield</h5>
-                                <h4>Growth Product Manager at Codecademy</h4>
+                            <div className={s.profile}>
+                                <div className={s.avatar}>
+                                    <img src={ava} alt="" />
+                                </div>
+                                <div className={s.profileName}>
+                                    <h5>Daniel Layfield</h5>
+                                    <h4>Growth Product Manager at Codecademy</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
