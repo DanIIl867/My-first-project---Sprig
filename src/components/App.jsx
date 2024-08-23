@@ -8,6 +8,8 @@ import { Solutions } from "./Solutions/Solutions"
 import { Features } from "./Features/Features"
 import { Integrations } from "./Integrations_/Integrations"
 import { CaseStudy } from "./CaseStudy/CaseStudy"
+import { FooterTop } from "./FooterTop/FooterTop"
+import { FooterBottom } from "./FooterBottom/FooterBottom"
 
 
 export const App = () => {
@@ -23,6 +25,8 @@ export const App = () => {
             <Features/>
             <Integrations/>
             <CaseStudy/>
+            <FooterTop/>
+            <FooterBottom/>
         </>
     )
 }
